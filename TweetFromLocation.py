@@ -8,6 +8,9 @@ import config
 results = api.search(geocode='22.3073,73.1811,10mi') 
 
 for result in results:
-    print result.text
-    print result.location if hasattr(result, 'location') else "Undefined location"
+    print(result.text)
+    if hasattr(result, 'location'):
+    	print(result.location)
+    else:
+    	print("Undefined location")
 
