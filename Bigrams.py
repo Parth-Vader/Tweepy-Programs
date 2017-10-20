@@ -1,6 +1,6 @@
 from nltk import bigrams 
 import re
-import operator 
+import operator
 import json
 from collections import Counter
 from nltk.corpus import stopwords

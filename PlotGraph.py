@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 import tweepy
 import vincent
 import config

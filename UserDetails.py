@@ -4,6 +4,6 @@ import config
 #Program to show the user's details
 user = api.me()
  
-print('Name: ' + user.name)
-print('Location: ' + user.location)
-print('Friends: ' + str(user.friends_count))
+print('Name: %s ' % (user.name))
+print('Location: %s ' % (user.location))
+print('Friends: %s ' % (str(user.friends_count)))

@@ -1,10 +1,10 @@
-#!/usr/bin/env python
+
 import tweepy
 import config
 
 #Prints the location as well as description of each of your friends on Twitter.
 def process_or_store(sta):
-    print sta["location"]+"  "+sta["description"]+ "\n"
+	print("%s %s %s" % (sta["location"], sta["description"], "\n"))
 
 #for status in tweepy.Cursor(api.user_timeline).items(200):
 #    process_status(status)
